@@ -1,0 +1,52 @@
+****************************************
+ Report : check_design 
+ Options: { pre_route_stage }
+ Design : i2c_master_top
+ Version: V-2023.12
+ Date   : Tue May  7 13:47:30 2024
+****************************************
+
+Running mega-check 'pre_route_stage': 
+    Running atomic-check 'design_mismatch'
+    Running atomic-check 'scan_chain'
+    Running atomic-check 'mv_design'
+    Running atomic-check 'timing'
+    Running atomic-check 'routability'
+    Running atomic-check 'hier_pre_route'
+
+  *** EMS Message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  DFT-011      Info   1          The design has no scan chain defined in the scandef.
+  TCK-001      Warn   156        The reported endpoint '%endpoint' is unconstrained. Reason: '%re...
+  TCK-012      Warn   18         The input port '%port' has no clock_relative delay specified. Mo...
+  ----------------------------------------------------------------------------------------------------
+  Total 175 EMS messages : 0 errors, 174 warnings, 1 info.
+  ----------------------------------------------------------------------------------------------------
+
+  *** Non-EMS message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  POW-024      Info   1          Doing activity propagation for mode '%s' and corner '%s' with ef...
+  POW-052      Info   1          Timer-derived activity data is cached on scenario %s
+  PVT-032      Info   1          Corner %s: no PVT mismatches.
+  ZRT-015      Warn   1          Ignore contact %s.
+  ZRT-026      Warn   2          Layer %s default pitch %.3f may be too small to handle up/down v...
+  ZRT-511      Warn   1          Cell contains tie connections which are not connected to real PG.
+  ZRT-619      Info   1          Via ladder engine would be activated for pattern must join conne...
+  ZRT-703      Info   1          Option route.detail.force_end_on_preferred_grid will be ignored ...
+  ZRT-706      Info   1          When applicable layer based tapering will taper up to %.2f in di...
+  ZRT-707      Info   1          When applicable Min-max layer allow_pin_connection mode will all...
+  ZRT-718      Info   1          When applicable Min-max layer allow_pin_connection mode will all...
+  ZRT-764      Warn   2          PG net %s has opens.
+  ----------------------------------------------------------------------------------------------------
+  Total 14 non-EMS messages : 0 errors, 6 warnings, 8 info.
+  ----------------------------------------------------------------------------------------------------
+
+Warning: EMS database "check_design.ems" already exists, over-writing it. (EMS-040)
+
+Information: EMS database is saved to file 'check_design.ems'.
+Information: Non-EMS messages are saved into file 'check_design2024May07134730.log'.
+1

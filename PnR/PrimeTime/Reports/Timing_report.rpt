@@ -1,0 +1,107 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : i2c_master_top
+Version: O-2018.06-SP1
+Date   : Mon May  6 23:13:48 2024
+****************************************
+
+
+  Startpoint: byte_controller/bit_controller/cnt_reg_0_
+               (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: byte_controller/bit_controller/cnt_reg_15_
+               (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Path Group: wb_clk_i
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock wb_clk_i (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  byte_controller/bit_controller/cnt_reg_0_/CLK (DFFARX1)
+                                                          0.00       0.00 r
+  byte_controller/bit_controller/cnt_reg_0_/Q (DFFARX1)
+                                                          0.19       0.19 r
+  byte_controller/bit_controller/copt_h_inst_506/Z (DELLN1X2)
+                                                          0.13       0.32 r
+  byte_controller/bit_controller/sub_228/U42/QN (NOR2X0)
+                                                          0.04       0.36 f
+  byte_controller/bit_controller/sub_228/U2/ZN (INVX0)
+                                                          0.02       0.39 r
+  byte_controller/bit_controller/sub_228/U41/QN (NOR2X0)
+                                                          0.03       0.42 f
+  byte_controller/bit_controller/sub_228/U3/ZN (INVX0)
+                                                          0.02       0.44 r
+  byte_controller/bit_controller/sub_228/U40/QN (NOR2X0)
+                                                          0.03       0.48 f
+  byte_controller/bit_controller/sub_228/U4/ZN (INVX0)
+                                                          0.02       0.50 r
+  byte_controller/bit_controller/sub_228/U39/QN (NOR2X0)
+                                                          0.03       0.53 f
+  byte_controller/bit_controller/sub_228/U5/ZN (INVX0)
+                                                          0.02       0.56 r
+  byte_controller/bit_controller/sub_228/U38/QN (NOR2X0)
+                                                          0.03       0.59 f
+  byte_controller/bit_controller/sub_228/U6/ZN (INVX0)
+                                                          0.02       0.61 r
+  byte_controller/bit_controller/sub_228/U37/QN (NOR2X0)
+                                                          0.03       0.64 f
+  byte_controller/bit_controller/sub_228/U7/ZN (INVX0)
+                                                          0.02       0.67 r
+  byte_controller/bit_controller/sub_228/U36/QN (NOR2X0)
+                                                          0.03       0.70 f
+  byte_controller/bit_controller/sub_228/U8/ZN (INVX0)
+                                                          0.02       0.72 r
+  byte_controller/bit_controller/sub_228/U35/QN (NOR2X0)
+                                                          0.03       0.76 f
+  byte_controller/bit_controller/sub_228/U9/ZN (INVX0)
+                                                          0.02       0.78 r
+  byte_controller/bit_controller/sub_228/U34/QN (NOR2X0)
+                                                          0.03       0.81 f
+  byte_controller/bit_controller/sub_228/U10/ZN (INVX0)
+                                                          0.02       0.84 r
+  byte_controller/bit_controller/sub_228/U33/QN (NOR2X0)
+                                                          0.03       0.87 f
+  byte_controller/bit_controller/sub_228/U11/ZN (INVX0)
+                                                          0.02       0.89 r
+  byte_controller/bit_controller/sub_228/U31/QN (NOR2X0)
+                                                          0.03       0.93 f
+  byte_controller/bit_controller/sub_228/U12/ZN (INVX0)
+                                                          0.02       0.95 r
+  byte_controller/bit_controller/sub_228/U29/QN (NOR2X0)
+                                                          0.03       0.98 f
+  byte_controller/bit_controller/sub_228/U13/ZN (INVX0)
+                                                          0.02       1.00 r
+  byte_controller/bit_controller/sub_228/U27/QN (NOR2X0)
+                                                          0.03       1.04 f
+  byte_controller/bit_controller/sub_228/U1/ZN (INVX0)
+                                                          0.03       1.06 r
+  byte_controller/bit_controller/sub_228/U24/QN (NOR2X0)
+                                                          0.04       1.10 f
+  byte_controller/bit_controller/sub_228/U23/Q (XOR2X1)
+                                                          0.06       1.17 r
+  byte_controller/bit_controller/U9/Q (AO222X1)           0.08       1.25 r
+  byte_controller/bit_controller/copt_h_inst_564/Z (NBUFFX2)
+                                                          0.04       1.29 r
+  byte_controller/bit_controller/cnt_reg_15_/D (DFFARX1)
+                                                          0.00       1.29 r
+  data arrival time                                                  1.29
+
+  clock wb_clk_i (rise edge)                              2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                      -0.30       1.70
+  byte_controller/bit_controller/cnt_reg_15_/CLK (DFFARX1)           1.70 r
+  library setup time                                     -0.04       1.66
+  data required time                                                 1.66
+  ------------------------------------------------------------------------------
+  data required time                                                 1.66
+  data arrival time                                                 -1.29
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        0.38
+
+
+1

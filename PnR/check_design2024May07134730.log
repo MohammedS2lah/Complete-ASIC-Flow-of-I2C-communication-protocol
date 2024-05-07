@@ -1,0 +1,234 @@
+****************************************
+ Report : check_design
+ Options: { pre_route_stage }
+ Design : i2c_master_top
+ Version: V-2023.12
+ Date   : Tue May  7 13:47:30 2024
+****************************************
+
+****************************************
+Report : Data Mismatches
+Version: V-2023.12
+Date   : Tue May  7 13:47:30 2024
+****************************************
+No mismatches exist on the design.
+1
+Using libraries: Design.dlib saed90nm_max_lth
+Visiting block Design.dlib:routing.design
+Design 'i2c_master_top' was successfully linked.
+1
+Information: Timer using 1 threads
+Information: Activity propagation will be performed for scenario default.
+Information: Running switching activity propagation in scalar mode!
+
+ **** Information : No. of simulation cycles = 7 ****
+1
+
+=========================================================
+==     Check for PG Net Open  ==
+=========================================================
+
+Warning: PG net VSS has opens. (ZRT-764)
+Warning: PG net VDD has opens. (ZRT-764)
+
+>>>>>> Found 2 PG net open
+
+=========================================================
+==     Check for global route app-option  ==
+=========================================================
+
+>>> The option values are suggested.
+
+Warning: Cell contains tie connections which are not connected to real PG. (ZRT-511)
+Warning: Ignore contact DIFFCON. (ZRT-015)
+Cell Min-Routing-Layer = M1
+Cell Max-Routing-Layer = M9
+Turn off antenna since no rule is specified
+Information: Option route.detail.force_end_on_preferred_grid will be ignored since none of the layers have preferred grid. (ZRT-703)
+Info: number of net_type_blockage: 0 
+Information: Via ladder engine would be activated for pattern must join connection in certain commands. Please refer to man-page for the command list. (ZRT-619)
+Via on layer (VIA1) needs more than one tracks
+Warning: Layer M1 default pitch 0.320 may be too small to handle up/down via. Note, that minimum requirements are "wire/via-down 0.315" & "wire/via-up 0.330". (ZRT-026)
+Via on layer (VIA1) needs more than one tracks
+Warning: Layer M2 default pitch 0.320 may be too small to handle up/down via. Note, that minimum requirements are "wire/via-down 0.360" & "wire/via-up 0.320". (ZRT-026)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 7.50 outside the layer range. (ZRT-707)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 7.50 outside the layer range on clock nets. (ZRT-718)
+Information: When applicable layer based tapering will taper up to 0.00 in distance from the pin. (ZRT-706)
+Printing options for 'route.common.*'
+
+Printing options for 'route.detail.*'
+
+Printing options for 'route.auto_via_ladder.*'
+
+
+============================================
+==  Check for design                      ==
+============================================
+
+>>> No net contains a large number of ports 
+
+>>> No port contains a large number of pins 
+
+
+================================
+==  Check for PG DPT on Track ==
+================================
+>>>>>> Number of PG rails cross even number of track: 0
+
+============================================
+==  Check for PG PreRoute setting         ==
+============================================
+ No number_of_secondary_pg_pin_connections setting and skip checking 
+ 
+============================================
+==        Check for pins         ==
+============================================
+
+>>>>>> found 44 nonzero-spacing blockages overlap pins
+
+====================================================
+== Check for the Cut Metal not on Preferred Grid ==
+====================================================
+
+============================================
+==  Check for overlap of standard cells   ==
+============================================
+
+>>>>>> No overlap of standard cells found
+
+============================================
+==     Check for min-grid violations      ==
+============================================
+
+  >>>> No Library min-grid violations found
+
+  >>>> No Design min-grid violations found
+
+>>>>>> No min-grid violations found
+
+
+============================================
+==    Check for out-of-boundary ports     ==
+============================================
+
+>>>>>> No out-of-boundary error found
+
+============================================
+==        Check for blocked ports         ==
+============================================
+
+>>>>>> No blocked ports found
+
+>>>>>> No blocked nets found
+
+============================================
+==     Check for shielding violations     ==
+============================================
+
+>>>>>> The following Non-PG net has a shape with shape_use shield_route
+
+>>> No non-PG net has a shape with shape_use shield_route.
+
+>>>>>> The following PG net has shape with shape_use detail_route and shape length is too long.
+
+>>> No PG net has shape with shape_use detail_route and shape length is too long.
+
+>>>>>> The following nets with shield non-default rule has no internal data representation in Zroute.
+
+>>> No nets with shield non-default rule has no internal data representation in Zroute.
+
+
+>>> No valid P/G net specified in route.common.shielding_nets.
+
+============================================
+==     Check for via cut blockage violation   ==
+============================================
+
+>>>>>> The following via cut blockages are wrongly treated as real vias.
+
+>>> No via cut blockage is wrongly treated as real via.
+
+============================================
+==     Check for custom via definition    ==
+============================================
+
+>>> No custom via definition has too many cuts
+
+============================================
+==          Check for via master          ==
+============================================
+
+>>> The total number of via master definition is 83
+
+===============================================
+==     Check non-default rule setting        ==
+===============================================
+
+>>> No NDR width is larger than signalRouteMaxWidth
+
+>>> No NDR shield width is larger than signalRouteMaxWidth
+
+======================================================
+==     Check redundant duplicated PG shapes         ==
+======================================================
+
+>>> No redundant duplicated PG shapes overlap with each other.
+
+=========================================================
+==     Check for shapes with no net  ==
+=========================================================
+
+>>> No shape with no net.
+
+=========================================================
+==     Check for high fanout net  ==
+=========================================================
+
+>>> No high fanout net.
+
+===========================================================
+==     Check library cell has non-routing layer pins     ==
+===========================================================
+
+>>> No cell has non-routing layer pins to be connected.
+
+============================================
+==     Check over promoted nets           ==
+============================================
+
+>>> No over promoted nets.
+
+End of check_routability
+rtapiOptAttrInterf: set attribute check_routability_called=1715078851 
+1
+
+  *** EMS Message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  DFT-011      Info   1          The design has no scan chain defined in the scandef.
+  TCK-001      Warn   156        The reported endpoint '%endpoint' is unconstrained. Reason: '%re...
+  TCK-012      Warn   18         The input port '%port' has no clock_relative delay specified. Mo...
+  ----------------------------------------------------------------------------------------------------
+  Total 175 EMS messages : 0 errors, 174 warnings, 1 info.
+  ----------------------------------------------------------------------------------------------------
+
+  *** Non-EMS message summary *** 
+  ----------------------------------------------------------------------------------------------------
+   Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+       POW-024   Info          1 Doing activity propagation for mode '%s' and corner '%s' with ef...
+       POW-052   Info          1 Timer-derived activity data is cached on scenario %s
+       PVT-032   Info          1 Corner %s: no PVT mismatches.
+       ZRT-015   Warn          1 Ignore contact %s.
+       ZRT-026   Warn          2 Layer %s default pitch %.3f may be too small to handle up/down v...
+       ZRT-511   Warn          1 Cell contains tie connections which are not connected to real PG.
+       ZRT-619   Info          1 Via ladder engine would be activated for pattern must join conne...
+       ZRT-703   Info          1 Option route.detail.force_end_on_preferred_grid will be ignored ...
+       ZRT-706   Info          1 When applicable layer based tapering will taper up to %.2f in di...
+       ZRT-707   Info          1 When applicable Min-max layer allow_pin_connection mode will all...
+       ZRT-718   Info          1 When applicable Min-max layer allow_pin_connection mode will all...
+       ZRT-764   Warn          2 PG net %s has opens.
+  ----------------------------------------------------------------------------------------------------
+  Total 14 non-EMS messages : 0 errors, 6 warnings, 8 info.
+  ----------------------------------------------------------------------------------------------------

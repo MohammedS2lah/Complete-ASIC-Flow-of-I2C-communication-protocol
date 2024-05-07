@@ -1,0 +1,34 @@
+#@ # 
+#@ # Running icc2_shell Version V-2023.12 for linux64 -- Nov 23, 2023
+#@ # Date:   Tue May  7 13:46:32 2024
+#@ # Run by: vlsi@elc-zu-vlsi-8-lnx
+#@ 
+
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+source -verbose -echo /home/vlsi/Synopsys/Project/I2C/PnR/Scripts/Routing_6.tcl
+win_set_filter -visible -class cell -filter {assembly_die_margin clock_margin hard_macro_margin hard_margin route_blockage_margin seal_ring_margin soft_margin} -layer {}
+win_set_filter -visible -class pseudo_bump -filter {deleted} -layer {}
+win_set_filter -visible -class pseudo_tsv -filter {deleted} -layer {}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-77}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {array assembly_die_margin clock_margin hard_macro_margin hard_margin route_blockage_margin seal_ring_margin soft_margin} -layer {}
+win_set_filter -class pseudo_bump -filter {deleted} -layer {}
+win_set_filter -class pseudo_tsv -filter {deleted} -layer {}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-77}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape via placement_blockage }
+set_virtual_pad -net VDD -coordinate {0 85}
+set_virtual_pad -net VDD -coordinate {85 154}
+set_virtual_pad -net VDD -coordinate {155.4 80}
+set_virtual_pad -net VDD -coordinate {85 0}
+set_virtual_pad -net VSS -coordinate {0 80}
+set_virtual_pad -net VSS -coordinate {80 154}
+set_virtual_pad -net VSS -coordinate {155.4 75}
+set_virtual_pad -net VSS -coordinate {80 0}
+analyze_power_plan -nets {VDD VSS} -power_budget 100
+set_working_design_stack Design.dlib:CTS.design
+set_working_design_stack Design.dlib:placement.design
+set_working_design_stack Design.dlib:CTS.design
+set_working_design_stack Design.dlib:i2c_master_top.design
+set_working_design_stack Design.dlib:CTS.design

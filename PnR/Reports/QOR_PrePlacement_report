@@ -1,0 +1,47 @@
+Using libraries: Design.dlib saed90nm_max_lth
+Visiting block Design.dlib:placement.design
+Design 'i2c_master_top' was successfully linked.
+Information: Timer using 1 threads
+****************************************
+Report : qor
+        -summary
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Tue May  7 13:46:57 2024
+****************************************
+Information: Corner default: no PVT mismatches. (PVT-032)
+Information: The stitching and editing of coupling caps is turned OFF for design 'Design.dlib:placement.design'. (TIM-125)
+Information: Design Average RC for design placement  (NEX-011)
+Information: r = 0.530850 ohm/um, via_r = 0.872657 ohm/cut, c = 0.085674 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)
+Information: r = 0.562500 ohm/um, via_r = 0.879781 ohm/cut, c = 0.096439 ff/um, cc = 0.000000 ff/um (Y dir) (NEX-017)
+Information: The RC mode used is VR for design 'i2c_master_top'. (NEX-022)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 669, routed nets = 0, across physical hierarchy nets = 0, parasitics cached nets = 669, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+************************************************************
+Timer Settings:
+Delay Calculation Style:                   auto
+Signal Integrity Analysis:                 disabled
+Timing Window Analysis:                    disabled
+Advanced Waveform Propagation:             disabled
+Variation Type:                            fixed_derate
+Clock Reconvergence Pessimism Removal:     disabled
+Advanced Receiver Model:                   disabled
+LLE:                                       disabled
+ML Acceleration:                           off
+************************************************************
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+Design             (Setup)             0.33           0.00              0
+
+Design             (Hold)             -0.15         -10.66            150
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                           8575.49
+Cell Area (netlist and physical only):         8575.49
+Nets with DRC Violations:        1
+1

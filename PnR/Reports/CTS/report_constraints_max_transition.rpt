@@ -1,0 +1,26 @@
+****************************************
+Report : constraint
+        -verbose
+        -all_violators
+        -max_transition
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Tue May  7 13:47:29 2024
+****************************************
+
+
+
+   Mode: default Corner: default
+   Scenario: default
+    Net: HFSNET_3
+    max_transition        0.123
+  - Transition Time       0.087
+  --------------------------------
+    Slack                 0.036 (MET)
+
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Total number of violation(s): 0
+1

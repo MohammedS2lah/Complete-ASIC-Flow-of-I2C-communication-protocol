@@ -1,0 +1,7 @@
+****************************************
+ Report : clock routing rules
+ Design : i2c_master_top
+ Date   : Tue May  7 13:47:11 2024
+****************************************
+   Design Base; Net Type: all;      Rule: cts_w2_s2_vlg; Min Layer: M4; Max Layer: M5
+

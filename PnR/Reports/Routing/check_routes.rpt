@@ -1,0 +1,239 @@
+Warning: Cell contains tie connections which are not connected to real PG. (ZRT-511)
+Warning: Ignore contact DIFFCON. (ZRT-015)
+Cell Min-Routing-Layer = M1
+Cell Max-Routing-Layer = M9
+Found antenna rule mode 4, diode mode 2:
+	layer M1:  max ratio 1000, diode ratio {0.06 0 456 43000} 
+	layer M2:  max ratio 1000, diode ratio {0.06 0 456 43000} 
+	layer M3:  max ratio 1000, diode ratio {0.06 0 456 43000} 
+	layer M4:  max ratio 1000, diode ratio {0.06 0 456 43000} 
+	layer M5:  max ratio 1000, diode ratio {0.06 0 456 43000} 
+	layer M6:  max ratio 1000, diode ratio {0.06 0 456 43000} 
+	layer M7:  max ratio 1000, diode ratio {0.06 0 456 43000} 
+	layer M8:  max ratio 1000, diode ratio {0.06 0 456 43000} 
+	layer M9:  max ratio 1000, diode ratio {0.06 0 8000 50000} 
+	layer CO: , diode ratio {0 0 1 0 0} 
+	layer VIA1:  max ratio 20, diode ratio {0.06 0 210 900} 
+	layer VIA2:  max ratio 20, diode ratio {0.06 0 210 900} 
+	layer VIA3:  max ratio 20, diode ratio {0.06 0 210 900} 
+	layer VIA4:  max ratio 20, diode ratio {0.06 0 210 900} 
+	layer VIA5:  max ratio 20, diode ratio {0.06 0 210 900} 
+	layer VIA6:  max ratio 20, diode ratio {0.06 0 210 900} 
+	layer VIA7:  max ratio 20, diode ratio {0.06 0 210 900} 
+	layer VIA8:  max ratio 20, diode ratio {0.06 0 210 900} 
+Information: Option route.detail.force_end_on_preferred_grid will be ignored since none of the layers have preferred grid. (ZRT-703)
+Info: number of net_type_blockage: 0 
+Information: Via ladder engine would be activated for pattern must join connection in certain commands. Please refer to man-page for the command list. (ZRT-619)
+Warning: Contact VIA89's lower layer enclosure width does not satisfy end of line enclosure design rule. (ZRT-042)
+Warning: Contact VIA89's upper layer enclosure width does not satisfy end of line enclosure design rule. (ZRT-042)
+Warning: Contact VIA89's lower layer enclosure height does not satisfy end of line enclosure design rule. (ZRT-042)
+Warning: Contact VIA89's upper layer enclosure height does not satisfy end of line enclosure design rule. (ZRT-042)
+Warning: Contact VIA89C's lower layer enclosure height does not satisfy end of line enclosure design rule. (ZRT-042)
+Warning: Contact VIA89C's upper layer enclosure width does not satisfy end of line enclosure design rule. (ZRT-042)
+Warning: Contact VIA89C's lower layer enclosure width does not satisfy end of line enclosure design rule. (ZRT-042)
+Warning: Contact VIA89C's upper layer enclosure height does not satisfy end of line enclosure design rule. (ZRT-042)
+Via on layer (VIA1) needs more than one tracks
+Warning: Layer M1 default pitch 0.320 may be too small to handle up/down via. Note, that minimum requirements are "wire/via-down 0.315" & "wire/via-up 0.330". (ZRT-026)
+Via on layer (VIA1) needs more than one tracks
+Warning: Layer M2 default pitch 0.320 may be too small to handle up/down via. Note, that minimum requirements are "wire/via-down 0.360" & "wire/via-up 0.320". (ZRT-026)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 11.25 outside the layer range. (ZRT-707)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 11.25 outside the layer range on clock nets. (ZRT-718)
+Information: When applicable layer based tapering will taper up to 0.00 in distance from the pin. (ZRT-706)
+
+
+Start checking for open nets ... 
+
+Total number of nets = 838, of which 0 are not extracted
+Total number of open nets = 0, of which 0 are frozen
+
+Check 838 nets, 0 have Errors
+
+[CHECK OPEN NETS] Elapsed real time: 0:00:00 
+[CHECK OPEN NETS] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[CHECK OPEN NETS] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[CHECK OPEN NETS] Total (MB): Used   18  Alloctr   19  Proc 6759 
+Printing options for 'route.common.*'
+common.eco_route_fix_existing_drc                       :	 true                
+common.verbose_level                                    :	 0                   
+
+Printing options for 'route.detail.*'
+detail.eco_route_use_soft_spacing_for_timing_optimization:	 true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+*****Start reporting antenna related parameters*****
+  Antenna/diode mode:
+    Antenna mode 4; diode mode 2
+      Metal lay (M1)0; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 456.000 43000.000 0.000)
+      Cut lay (VIA1)1; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 900.000 0.000)
+      Metal lay (M2)1; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 456.000 43000.000 0.000)
+      Cut lay (VIA2)2; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 900.000 0.000)
+      Metal lay (M3)2; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 456.000 43000.000 0.000)
+      Cut lay (VIA3)3; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 900.000 0.000)
+      Metal lay (M4)3; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 456.000 43000.000 0.000)
+      Cut lay (VIA4)4; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 900.000 0.000)
+      Metal lay (M5)4; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 456.000 43000.000 0.000)
+      Cut lay (VIA5)5; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 900.000 0.000)
+      Metal lay (M6)5; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 456.000 43000.000 0.000)
+      Cut lay (VIA6)6; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 900.000 0.000)
+      Metal lay (M7)6; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 456.000 43000.000 0.000)
+      Cut lay (VIA7)7; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 900.000 0.000)
+      Metal lay (M8)7; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 456.000 43000.000 0.000)
+      Cut lay (VIA8)8; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 900.000 0.000)
+      Metal lay (M9)8; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 8000.000 50000.000 0.000)
+  Top lay antenna ratio fix threshold == -1
+  Antenna max pin count threshold == -1
+  Check PG net == false
+  MergeGate == true
+  Break antenna to port mode == float
+  Break antenna to macro pin mode == normal
+*****End reporting antenna related parameters*****
+Warning: Skipping antenna analysis for net wb_clk_i. The pin wb_clk_i on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_rst_i. The pin wb_rst_i on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net arst_i. The pin arst_i on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_adr_i[2]. The pin wb_adr_i[2] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_adr_i[1]. The pin wb_adr_i[1] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_adr_i[0]. The pin wb_adr_i[0] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_dat_i[7]. The pin wb_dat_i[7] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_dat_i[6]. The pin wb_dat_i[6] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_dat_i[5]. The pin wb_dat_i[5] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_dat_i[4]. The pin wb_dat_i[4] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_dat_i[3]. The pin wb_dat_i[3] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_dat_i[2]. The pin wb_dat_i[2] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_dat_i[1]. The pin wb_dat_i[1] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_dat_i[0]. The pin wb_dat_i[0] on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_we_i. The pin wb_we_i on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_stb_i. The pin wb_stb_i on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net wb_cyc_i. The pin wb_cyc_i on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net scl_pad_i. The pin scl_pad_i on cell routing does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net sda_pad_i. The pin sda_pad_i on cell routing does not have enough gate area information. (ZRT-311)
+Skipping antenna analysis for 19 nets as they don't have enough gate area info.
+
+Begin full DRC check ...
+
+Information: Using 1 threads for routing. (ZRT-444)
+Checked	1/4 Partitions, Violations =	0
+Checked	2/4 Partitions, Violations =	0
+Checked	3/4 Partitions, Violations =	0
+Checked	4/4 Partitions, Violations =	0
+[DRC CHECK] Elapsed real time: 0:00:00 
+[DRC CHECK] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[DRC CHECK] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[DRC CHECK] Total (MB): Used   89  Alloctr   90  Proc 6759 
+Start net based rule analysis
+Found 0 antenna instance ports
+End net based rule analysis
+[Antenna analysis] Elapsed real time: 0:00:00 
+[Antenna analysis] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[Antenna analysis] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[Antenna analysis] Total (MB): Used   89  Alloctr   90  Proc 6759 
+
+DRC-SUMMARY:
+	@@@@@@@ TOTAL VIOLATIONS =	0
+
+
+Total Wire Length =                    21253 micron
+Total Number of Contacts =             6068
+Total Number of Wires =                6353
+Total Number of PtConns =              479
+Total Number of Routed Wires =       6288
+Total Routed Wire Length =           21131 micron
+Total Number of Routed Contacts =       6068
+	Layer          M1 :        613 micron
+	Layer          M2 :       8649 micron
+	Layer          M3 :       8206 micron
+	Layer          M4 :       2135 micron
+	Layer          M5 :       1492 micron
+	Layer          M6 :         36 micron
+	Layer          M7 :          0 micron
+	Layer          M8 :          0 micron
+	Layer          M9 :          0 micron
+	Via   VIA78C(rot) :          1
+	Via        VIA67C :          1
+	Via   VIA56C(rot) :          5
+	Via        VIA45C :        132
+	Via        VIA34C :          1
+	Via   VIA34C(rot) :        388
+	Via        VIA23C :       2716
+	Via        VIA12C :          5
+	Via   VIA12C(rot) :       2407
+	Via        VIA12B :         21
+	Via   VIA12B(rot) :        391
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate =  0.00% (0 / 6068 vias)
+ 
+    Layer VIA1       =  0.00% (0      / 2824    vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (2824    vias)
+    Layer VIA2       =  0.00% (0      / 2716    vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (2716    vias)
+    Layer VIA3       =  0.00% (0      / 389     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (389     vias)
+    Layer VIA4       =  0.00% (0      / 132     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (132     vias)
+    Layer VIA5       =  0.00% (0      / 5       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (5       vias)
+    Layer VIA6       =  0.00% (0      / 1       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (1       vias)
+    Layer VIA7       =  0.00% (0      / 1       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (1       vias)
+ 
+  Total double via conversion rate    =  0.00% (0 / 6068 vias)
+ 
+    Layer VIA1       =  0.00% (0      / 2824    vias)
+    Layer VIA2       =  0.00% (0      / 2716    vias)
+    Layer VIA3       =  0.00% (0      / 389     vias)
+    Layer VIA4       =  0.00% (0      / 132     vias)
+    Layer VIA5       =  0.00% (0      / 5       vias)
+    Layer VIA6       =  0.00% (0      / 1       vias)
+    Layer VIA7       =  0.00% (0      / 1       vias)
+ 
+  The optimized via conversion rate based on total routed via count =  0.00% (0 / 6068 vias)
+ 
+    Layer VIA1       =  0.00% (0      / 2824    vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (2824    vias)
+    Layer VIA2       =  0.00% (0      / 2716    vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (2716    vias)
+    Layer VIA3       =  0.00% (0      / 389     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (389     vias)
+    Layer VIA4       =  0.00% (0      / 132     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (132     vias)
+    Layer VIA5       =  0.00% (0      / 5       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (5       vias)
+    Layer VIA6       =  0.00% (0      / 1       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (1       vias)
+    Layer VIA7       =  0.00% (0      / 1       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (1       vias)
+ 
+
+
+Verify Summary:
+
+Total number of nets = 838, of which 0 are not extracted
+Total number of open nets = 0, of which 0 are frozen
+Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                 0 ports without pins of 0 cells connected to 0 nets
+                                 0 ports of 0 cover cells connected to 0 non-pg nets
+Total number of DRCs = 0
+Total number of antenna violations = 0
+Total number of tie to rail violations = not checked
+Total number of tie to rail directly violations = not checked
+
+

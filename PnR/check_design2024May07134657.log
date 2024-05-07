@@ -1,0 +1,39 @@
+****************************************
+ Report : check_design
+ Options: { pre_placement_stage }
+ Design : i2c_master_top
+ Version: V-2023.12
+ Date   : Tue May  7 13:46:57 2024
+****************************************
+
+****************************************
+Report : Data Mismatches
+Version: V-2023.12
+Date   : Tue May  7 13:46:57 2024
+****************************************
+No mismatches exist on the design.
+1
+1
+Information: There are no relative placement groups in the design. (NDMUI-173)
+1
+1
+
+  *** EMS Message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  DFT-011      Info   1          The design has no scan chain defined in the scandef.
+  TCK-001      Warn   156        The reported endpoint '%endpoint' is unconstrained. Reason: '%re...
+  TCK-012      Warn   18         The input port '%port' has no clock_relative delay specified. Mo...
+  ----------------------------------------------------------------------------------------------------
+  Total 175 EMS messages : 0 errors, 174 warnings, 1 info.
+  ----------------------------------------------------------------------------------------------------
+
+  *** Non-EMS message summary *** 
+  ----------------------------------------------------------------------------------------------------
+   Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+     NDMUI-173   Info          1 There are no relative placement groups in the design.
+  ----------------------------------------------------------------------------------------------------
+  Total 1 non-EMS messages : 0 errors, 0 warnings, 1 info.
+  ----------------------------------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+./Outputs/i2c_master_top.out.spef.minTLU_-40.spef for scenarios: 
+	 scenario: default, corner type: late
+
+./Outputs/i2c_master_top.out.spef.maxTLU_-40.spef for scenarios: 
+	 scenario: default, corner type: early
+

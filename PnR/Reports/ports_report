@@ -1,0 +1,37 @@
+****************************************
+Report : port
+        -design_rule
+        -input_delay
+        -drive
+        -output_delay
+Module : i2c_master_top
+Mode   : default
+Corner : default
+Scenario: default
+Version: V-2023.12
+Date   : Tue May  7 13:47:11 2024
+****************************************
+Attributes:
+   I - ideal network
+   H - HyperScale context override
+                      Pin Cap                    Wire Cap
+                   Min          Max           Min          Max
+Port      Dir    rise/fall    rise/fall     rise/fall    rise/fall    Attributes
+--------------------------------------------------------------------------------
+wb_clk_i  in     0.00/0.00    0.00/0.00     0.00/0.00    0.00/0.00    
+
+Port           MaxTrans MaxCap   MinCap
+-------------------------------------------
+wb_clk_i       --       --       --
+
+                      Input Delay
+                    Min             Max       Related Related
+ Input Port     Rise    Fall    Rise    Fall   Clock   Pin       Attributes
+----------------------------------------------------------------------------
+wb_clk_i        --      --      --      --      --      --
+
+            Resistance (min/max)
+Input Port  Rise             Fall
+--------------------------------------------------------------------------------
+wb_clk_i    --               --
+1

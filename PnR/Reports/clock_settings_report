@@ -1,0 +1,103 @@
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+****************************************
+ Report : clock settings
+ Design : CTS
+ Date   : Tue May  7 13:47:11 2024
+****************************************
+
+
+======================================
+Configurations 
+======================================
+
+##Global
+  Corner = default
+    Max transition: around 0.500 (default)
+    Max capacitance: 600.000 (default)
+    Target skew: 0 (default)
+    Target latency: Not specified
+
+##wb_clk_i
+  Corner = default
+    Max transition: around 0.500 (default)
+    Max capacitance: 600.000 (default)
+    Target skew: 0 (default)
+    Target latency: Not specified
+
+
+======================================
+Routing Rules 
+======================================
+
+##Global
+Routing rule for sink nets: Default Min Layer:M1 Max Layer:M2
+Routing rule for internal nets: Not specified
+Routing rule for root nets: Not specified
+Routing rule for all nets: cts_w2_s2_vlg  Min Layer:M4 Max Layer:M5
+Net-based routing rules (by set_clock_routing_rule): Not specified
+Net-based routing rules (by set_routing_rule): Not specified
+
+##wb_clk_i
+Routing rule for sink nets: Not specified
+Routing rule for internal nets: Not specified
+Routing rule for root nets: Not specified
+Routing rule for all nets: Not specified
+Net-based routing rules (by set_clock_routing_rule): Not specified
+Net-based routing rules (by set_routing_rule): Not specified
+
+
+======================================
+Buffers and Inverters 
+======================================
+
+##Buffers
+Name                                   Area      Max Transition       Max Load
+------------------------------------------------------------------------------
+saed90nm_max_lth/DELLN1X2            14.746               1.024        416.000
+saed90nm_max_lth/DELLN2X2            15.667               1.024        416.000
+saed90nm_max_lth/DELLN3X2            22.118               1.024        416.000
+saed90nm_max_lth/NBUFFX16            26.726               1.024        384.000
+saed90nm_max_lth/NBUFFX2              5.530               1.024         48.000
+saed90nm_max_lth/NBUFFX32            55.296               2.048        768.000
+saed90nm_max_lth/NBUFFX4             10.138               1.024         96.000
+saed90nm_max_lth/NBUFFX8             14.746               1.024        192.000
+saed90nm_max_lth/AOBUFX1             22.118               1.024        208.000
+saed90nm_max_lth/AOBUFX2             22.118               1.024        416.000
+saed90nm_max_lth/AOBUFX4             27.648               1.024        832.000
+
+##Inverters
+Name                                   Area      Max Transition       Max Load
+------------------------------------------------------------------------------
+saed90nm_max_lth/IBUFFX16            31.334               1.024       3328.000
+saed90nm_max_lth/IBUFFX2             10.138               1.024        416.000
+saed90nm_max_lth/IBUFFX32            56.218               1.024       6656.000
+saed90nm_max_lth/IBUFFX4             12.902               1.024        832.000
+saed90nm_max_lth/IBUFFX8             18.432               1.024       1664.000
+saed90nm_max_lth/INVX0                5.530               1.024        104.000
+saed90nm_max_lth/INVX1                6.451               1.024        208.000
+saed90nm_max_lth/INVX16              25.805               1.024       3328.000
+saed90nm_max_lth/INVX2                6.451               1.024        416.000
+saed90nm_max_lth/INVX32              47.002               1.024       6656.000
+saed90nm_max_lth/INVX4                9.216               1.024        832.000
+saed90nm_max_lth/INVX8               14.746               1.024       1664.000
+saed90nm_max_lth/AOINVX1             22.118               1.024        208.000
+saed90nm_max_lth/AOINVX2             22.118               1.024        416.000
+saed90nm_max_lth/AOINVX4             18.432               1.024        832.000
+
+
+======================================
+Spacing Rules 
+======================================
+
+##By design
+No by design spacing rule is specified
+
+##By clock
+No by clock spacing rule is specified
+
+##By libcell
+No by libcell spacing rule is specified
+
+##By clock and libcell
+No by clock and libcell spacing rule is specified
+1

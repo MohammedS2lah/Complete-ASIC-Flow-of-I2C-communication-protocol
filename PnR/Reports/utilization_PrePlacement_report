@@ -1,0 +1,26 @@
+****************************************
+Report : report_utilization
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Tue May  7 13:46:57 2024
+****************************************
+Utilization Ratio:			0.6084
+Utilization options:
+ - Area calculation based on:		site_row of block placement
+ - Categories of objects excluded:	hard_macros macro_keepouts soft_macros io_cells hard_blockages 
+Total Area:				14094.0288
+Total Capacity Area:			14094.0288
+Total Area of cells:			8575.4880
+Area of excluded objects:
+ - hard_macros         :		0.0000
+ - macro_keepouts      :		0.0000
+ - soft_macros         :		0.0000
+ - io_cells            :		0.0000
+ - hard_blockages      :		0.0000
+Total Area of excluded objects:		0.0000
+Ratio of excluded objects:		0.0000
+
+Utilization of site-rows with:
+ - Site 'unit':				0.6084
+
+0.6084

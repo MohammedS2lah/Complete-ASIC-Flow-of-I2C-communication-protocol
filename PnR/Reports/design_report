@@ -1,0 +1,38 @@
+**********************************************************************************
+Information :	Short Summary Design Analysis
+Library Name:	Design.dlib
+Design Name :	i2c_master_top
+**********************************************************************************
+List of Modes     : default
+List of Corners   : default
+List of Scenarios : default
+Movable Cell Area :                         8575.488000
+Number of Standard cells in design :               573
+Number of Inv/Buf cells in design :                 67      11 % of Std cells
+Number of Macro cells in design :                    0
+Number of ICG cells in design :                      0       0 % of Std cells
+Number of dont_touch cells in design :               0       0 % of Std cells
+Number of size_only cells in design :              153      26 % of Std cells
+Number of fixed_placement cells in design :          0       0 % of Std cells
+Number of dont_use Std cells in design :             0       0 % of Std cells
+Number of Buffers Avail in libraries :              11
+Number of Buffers with dont_use :                    0
+Number of Inverters Avail in libraries :            15
+Number of Inverters with dont_use :                  0
+Number of Sequential cells in design :             153      26 % of Std cells
+Number of Hierarchical cells in design :             4
+Number of Always On cells in design :                0
+Number of Voltage Areas in design :                  1
+Number of Nets in design :                         824
+Number of Ideal Nets in design :                     0       0 of them Clocks
+Number of Nets with dont_touch in design :           0       0 % of Nets
+Number of Tristate Nets in design :                  0       0 % of Nets
+Number of Tie Nets in design :                       3 H:        0 - L:        3
+Number of Master Clocks in design :                  1
+Number of Generated Clocks in design :               0
+Number of Path Groups in design :                    7       1 of them Non Default
+Number of Scan Chains in design :                    0
+Number of Bounds in design :                         0
+Number of Routing Layers in design :                 9       0 of them Ignored
+**********************************************************************************
+1

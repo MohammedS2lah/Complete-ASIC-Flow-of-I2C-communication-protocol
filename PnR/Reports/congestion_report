@@ -1,0 +1,367 @@
+
+Running global router for congestion map ...
+Info: Set app option 'route.global.deterministic' to on
+
+Start Global Route ... 
+[Init] Elapsed real time: 0:00:00 
+[Init] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[Init] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[Init] Total (MB): Used    7  Alloctr    7  Proc 6107 
+Printing options for 'route.common.*'
+
+Printing options for 'route.global.*'
+global.deterministic                                    :	 on                  
+
+Begin global routing.
+Warning: Cell contains tie connections which are not connected to real PG. (ZRT-511)
+Warning: Ignore contact DIFFCON. (ZRT-015)
+Cell Min-Routing-Layer = M1
+Cell Max-Routing-Layer = M9
+Turn off antenna since no rule is specified
+Information: Option route.detail.force_end_on_preferred_grid will be ignored since none of the layers have preferred grid. (ZRT-703)
+Info: number of net_type_blockage: 0 
+Information: Via ladder engine would be activated for pattern must join connection in certain commands. Please refer to man-page for the command list. (ZRT-619)
+Via on layer (VIA1) needs more than one tracks
+Warning: Layer M1 default pitch 0.320 may be too small to handle up/down via. Note, that minimum requirements are "wire/via-down 0.315" & "wire/via-up 0.330". (ZRT-026)
+Via on layer (VIA1) needs more than one tracks
+Warning: Layer M2 default pitch 0.320 may be too small to handle up/down via. Note, that minimum requirements are "wire/via-down 0.360" & "wire/via-up 0.320". (ZRT-026)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 7.50 outside the layer range. (ZRT-707)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 7.50 outside the layer range on clock nets. (ZRT-718)
+Information: When applicable layer based tapering will taper up to 0.00 in distance from the pin. (ZRT-706)
+Current Stage stats:
+[End of Read DB] Elapsed real time: 0:00:00 
+[End of Read DB] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Read DB] Stage (MB): Used   17  Alloctr   17  Proc    0 
+[End of Read DB] Total (MB): Used   24  Alloctr   25  Proc 6107 
+Constructing data structure ...
+Design statistics:
+Design Bounding Box (0.00um,0.00um,155.36um,154.08um)
+Number of routing layers = 9
+layer M1, dir Hor, min width = 0.14um, min space = 0.14um pitch = 0.32um
+layer M2, dir Ver, min width = 0.16um, min space = 0.16um pitch = 0.32um
+layer M3, dir Hor, min width = 0.16um, min space = 0.16um pitch = 0.64um
+layer M4, dir Ver, min width = 0.16um, min space = 0.16um pitch = 0.64um
+layer M5, dir Hor, min width = 0.16um, min space = 0.16um pitch = 1.28um
+layer M6, dir Ver, min width = 0.16um, min space = 0.16um pitch = 1.28um
+layer M7, dir Hor, min width = 0.16um, min space = 0.16um pitch = 2.56um
+layer M8, dir Ver, min width = 0.16um, min space = 0.16um pitch = 3.84um
+layer M9, dir Hor, min width = 0.45um, min space = 0.45um pitch = 5.12um
+Current Stage stats:
+[End of Build Tech Data] Elapsed real time: 0:00:00 
+[End of Build Tech Data] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build Tech Data] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Build Tech Data] Total (MB): Used   25  Alloctr   26  Proc 6107 
+Net statistics:
+Total number of nets     = 657
+Number of nets to route  = 656
+1 nets are fully connected,
+ of which 1 are detail routed and 0 are global routed.
+Net length statistics: 
+Net Count(Ignore Fully Rted) 656, Total Half Perimeter Wire Length (HPWL) 15841 microns
+HPWL   0 ~   50 microns: Net Count      593	Total HPWL         9715 microns
+HPWL  50 ~  100 microns: Net Count       42	Total HPWL         3089 microns
+HPWL 100 ~  200 microns: Net Count       18	Total HPWL         2254 microns
+HPWL 200 ~  300 microns: Net Count        2	Total HPWL          474 microns
+HPWL 300 ~  400 microns: Net Count        1	Total HPWL          309 microns
+HPWL 400 ~  500 microns: Net Count        0	Total HPWL            0 microns
+HPWL 500 ~  600 microns: Net Count        0	Total HPWL            0 microns
+HPWL 600 ~  700 microns: Net Count        0	Total HPWL            0 microns
+HPWL 700 ~  800 microns: Net Count        0	Total HPWL            0 microns
+HPWL 800 ~  900 microns: Net Count        0	Total HPWL            0 microns
+HPWL 900 ~ 1000 microns: Net Count        0	Total HPWL            0 microns
+HPWL     > 1000 microns: Net Count        0	Total HPWL            0 microns
+Current Stage stats:
+[End of Build All Nets] Elapsed real time: 0:00:00 
+[End of Build All Nets] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build All Nets] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Build All Nets] Total (MB): Used   26  Alloctr   26  Proc 6107 
+Number of partitions: 1 (1 x 1)
+Size of partitions: 54 gCells x 53 gCells
+Average gCell capacity  5.13	 on layer (1)	 M1
+Average gCell capacity  8.28	 on layer (2)	 M2
+Average gCell capacity  4.25	 on layer (3)	 M3
+Average gCell capacity  4.17	 on layer (4)	 M4
+Average gCell capacity  2.11	 on layer (5)	 M5
+Average gCell capacity  2.09	 on layer (6)	 M6
+Average gCell capacity  1.06	 on layer (7)	 M7
+Average gCell capacity  0.49	 on layer (8)	 M8
+Average gCell capacity  0.30	 on layer (9)	 M9
+Average number of tracks per gCell 9.11	 on layer (1)	 M1
+Average number of tracks per gCell 9.00	 on layer (2)	 M2
+Average number of tracks per gCell 4.57	 on layer (3)	 M3
+Average number of tracks per gCell 4.52	 on layer (4)	 M4
+Average number of tracks per gCell 2.30	 on layer (5)	 M5
+Average number of tracks per gCell 2.28	 on layer (6)	 M6
+Average number of tracks per gCell 1.17	 on layer (7)	 M7
+Average number of tracks per gCell 0.78	 on layer (8)	 M8
+Average number of tracks per gCell 0.60	 on layer (9)	 M9
+Number of gCells = 25758
+Current Stage stats:
+[End of Build Congestion Map] Elapsed real time: 0:00:00 
+[End of Build Congestion Map] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build Congestion Map] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Build Congestion Map] Total (MB): Used   26  Alloctr   27  Proc 6107 
+Current Stage stats:
+[End of Add Nets Demand] Elapsed real time: 0:00:00 
+[End of Add Nets Demand] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Add Nets Demand] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Add Nets Demand] Total (MB): Used   26  Alloctr   27  Proc 6107 
+Number of user frozen nets = 0
+Total stats:
+[End of Build Data] Elapsed real time: 0:00:00 
+[End of Build Data] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build Data] Stage (MB): Used    1  Alloctr    1  Proc    0 
+[End of Build Data] Total (MB): Used   26  Alloctr   27  Proc 6107 
+Number of partitions: 1 (1 x 1)
+Size of partitions: 54 gCells x 53 gCells
+Current Stage stats:
+[End of Blocked Pin Detection] Elapsed real time: 0:00:00 
+[End of Blocked Pin Detection] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Blocked Pin Detection] Stage (MB): Used  176  Alloctr  176  Proc   80 
+[End of Blocked Pin Detection] Total (MB): Used  202  Alloctr  203  Proc 6187 
+Information: Using 1 threads for routing. (ZRT-444)
+Information: Multiple gcell levels ON
+Information: Buffer distance is estimated to be ~2254.0000um (782 gCells)
+
+Start GR phase 0
+Number of partitions: 1 (1 x 1)
+Size of partitions: 54 gCells x 53 gCells
+[rtAllBotParts] Elapsed real time: 0:00:00 
+[rtAllBotParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[rtTop] Elapsed real time: 0:00:00 
+[rtTop] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Initial Routing] Elapsed real time: 0:00:00 
+[End of Initial Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Initial Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Initial Routing] Total (MB): Used  203  Alloctr  203  Proc 6187 
+Initial. Routing result:
+Initial. Both Dirs: Dmd-Cap  =     2 Max = 2 GRCs =     2 (0.03%)
+Initial. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. V routing: Dmd-Cap  =     2 Max = 2 (GRCs =  2) GRCs =     2 (0.07%)
+Initial. Both Dirs: Overflow =    87 Max = 5 GRCs =   164 (2.87%)
+Initial. H routing: Overflow =    44 Max = 3 (GRCs =  1) GRCs =   120 (4.19%)
+Initial. V routing: Overflow =    43 Max = 5 (GRCs =  1) GRCs =    44 (1.54%)
+Initial. M1         Overflow =    16 Max = 1 (GRCs = 24) GRCs =    24 (0.84%)
+Initial. M2         Overflow =    43 Max = 5 (GRCs =  1) GRCs =    44 (1.54%)
+Initial. M3         Overflow =    28 Max = 3 (GRCs =  1) GRCs =    96 (3.35%)
+Initial. M4         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+Initial. Total Wire Length = 17056.95
+Initial. Layer M1 wire length = 432.63
+Initial. Layer M2 wire length = 6808.61
+Initial. Layer M3 wire length = 7483.53
+Initial. Layer M4 wire length = 1205.66
+Initial. Layer M5 wire length = 1119.12
+Initial. Layer M6 wire length = 2.80
+Initial. Layer M7 wire length = 0.00
+Initial. Layer M8 wire length = 0.00
+Initial. Layer M9 wire length = 4.60
+Initial. Total Number of Contacts = 4584
+Initial. Via VIA12C count = 2362
+Initial. Via VIA23C count = 1975
+Initial. Via VIA34C count = 171
+Initial. Via VIA45C count = 72
+Initial. Via VIA56C count = 1
+Initial. Via VIA67C count = 1
+Initial. Via VIA78C count = 1
+Initial. Via VIA89C count = 1
+Initial. completed.
+
+Start GR phase 1
+Tue May  7 13:47:10 2024
+Number of partitions: 1 (1 x 1)
+Size of partitions: 54 gCells x 53 gCells
+[rtAllParts] Elapsed real time: 0:00:00 
+[rtAllParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Phase1 Routing] Elapsed real time: 0:00:00 
+[End of Phase1 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase1 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase1 Routing] Total (MB): Used  203  Alloctr  203  Proc 6187 
+phase1. Routing result:
+phase1. Both Dirs: Dmd-Cap  =     3 Max = 3 GRCs =     3 (0.05%)
+phase1. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. V routing: Dmd-Cap  =     3 Max = 3 (GRCs =  1) GRCs =     3 (0.10%)
+phase1. Both Dirs: Overflow =    50 Max = 5 GRCs =    75 (1.31%)
+phase1. H routing: Overflow =    15 Max = 2 (GRCs =  1) GRCs =    41 (1.43%)
+phase1. V routing: Overflow =    35 Max = 5 (GRCs =  1) GRCs =    34 (1.19%)
+phase1. M1         Overflow =    14 Max = 1 (GRCs = 23) GRCs =    23 (0.80%)
+phase1. M2         Overflow =    35 Max = 5 (GRCs =  1) GRCs =    34 (1.19%)
+phase1. M3         Overflow =     1 Max = 2 (GRCs =  1) GRCs =    18 (0.63%)
+phase1. M4         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase1. Total Wire Length = 17275.91
+phase1. Layer M1 wire length = 573.00
+phase1. Layer M2 wire length = 6902.80
+phase1. Layer M3 wire length = 7098.30
+phase1. Layer M4 wire length = 1395.73
+phase1. Layer M5 wire length = 1298.68
+phase1. Layer M6 wire length = 2.80
+phase1. Layer M7 wire length = 0.00
+phase1. Layer M8 wire length = 0.00
+phase1. Layer M9 wire length = 4.60
+phase1. Total Number of Contacts = 4639
+phase1. Via VIA12C count = 2387
+phase1. Via VIA23C count = 1931
+phase1. Via VIA34C count = 218
+phase1. Via VIA45C count = 99
+phase1. Via VIA56C count = 1
+phase1. Via VIA67C count = 1
+phase1. Via VIA78C count = 1
+phase1. Via VIA89C count = 1
+phase1. completed.
+
+Start GR phase 2
+Tue May  7 13:47:10 2024
+Number of partitions: 1 (1 x 1)
+Size of partitions: 54 gCells x 53 gCells
+[rtAllParts] Elapsed real time: 0:00:00 
+[rtAllParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[updNetsDmd] Elapsed real time: 0:00:00 
+[updNetsDmd] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Phase2 Routing] Elapsed real time: 0:00:00 
+[End of Phase2 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase2 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase2 Routing] Total (MB): Used  203  Alloctr  203  Proc 6187 
+phase2. Routing result:
+phase2. Both Dirs: Dmd-Cap  =     0 Max = 1 GRCs =     1 (0.02%)
+phase2. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. V routing: Dmd-Cap  =     0 Max = 1 (GRCs =  1) GRCs =     1 (0.03%)
+phase2. Both Dirs: Overflow =    29 Max = 2 GRCs =    35 (0.61%)
+phase2. H routing: Overflow =    12 Max = 1 (GRCs = 20) GRCs =    20 (0.70%)
+phase2. V routing: Overflow =    17 Max = 2 (GRCs =  6) GRCs =    15 (0.52%)
+phase2. M1         Overflow =    11 Max = 1 (GRCs = 19) GRCs =    19 (0.66%)
+phase2. M2         Overflow =    17 Max = 2 (GRCs =  6) GRCs =    15 (0.52%)
+phase2. M3         Overflow =     1 Max = 1 (GRCs =  1) GRCs =     1 (0.03%)
+phase2. M4         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase2. Total Wire Length = 17306.42
+phase2. Layer M1 wire length = 583.48
+phase2. Layer M2 wire length = 6886.93
+phase2. Layer M3 wire length = 7057.41
+phase2. Layer M4 wire length = 1441.09
+phase2. Layer M5 wire length = 1330.12
+phase2. Layer M6 wire length = 2.80
+phase2. Layer M7 wire length = 0.00
+phase2. Layer M8 wire length = 0.00
+phase2. Layer M9 wire length = 4.60
+phase2. Total Number of Contacts = 4660
+phase2. Via VIA12C count = 2388
+phase2. Via VIA23C count = 1929
+phase2. Via VIA34C count = 227
+phase2. Via VIA45C count = 112
+phase2. Via VIA56C count = 1
+phase2. Via VIA67C count = 1
+phase2. Via VIA78C count = 1
+phase2. Via VIA89C count = 1
+phase2. completed.
+
+Start GR phase 3
+Tue May  7 13:47:10 2024
+Number of partitions: 1 (1 x 1)
+Size of partitions: 54 gCells x 53 gCells
+[rtAllParts] Elapsed real time: 0:00:00 
+[rtAllParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[updNetsDmd] Elapsed real time: 0:00:00 
+[updNetsDmd] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Phase3 Routing] Elapsed real time: 0:00:00 
+[End of Phase3 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase3 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase3 Routing] Total (MB): Used  203  Alloctr  203  Proc 6187 
+phase3. Routing result:
+phase3. Both Dirs: Dmd-Cap  =     0 Max = 1 GRCs =     1 (0.02%)
+phase3. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. V routing: Dmd-Cap  =     0 Max = 1 (GRCs =  1) GRCs =     1 (0.03%)
+phase3. Both Dirs: Overflow =    27 Max = 2 GRCs =    33 (0.58%)
+phase3. H routing: Overflow =    10 Max = 1 (GRCs = 18) GRCs =    18 (0.63%)
+phase3. V routing: Overflow =    17 Max = 2 (GRCs =  6) GRCs =    15 (0.52%)
+phase3. M1         Overflow =    10 Max = 1 (GRCs = 18) GRCs =    18 (0.63%)
+phase3. M2         Overflow =    17 Max = 2 (GRCs =  6) GRCs =    15 (0.52%)
+phase3. M3         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M4         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase3. Total Wire Length = 17312.25
+phase3. Layer M1 wire length = 581.64
+phase3. Layer M2 wire length = 6897.24
+phase3. Layer M3 wire length = 7059.69
+phase3. Layer M4 wire length = 1441.09
+phase3. Layer M5 wire length = 1325.20
+phase3. Layer M6 wire length = 2.80
+phase3. Layer M7 wire length = 0.00
+phase3. Layer M8 wire length = 0.00
+phase3. Layer M9 wire length = 4.60
+phase3. Total Number of Contacts = 4660
+phase3. Via VIA12C count = 2388
+phase3. Via VIA23C count = 1927
+phase3. Via VIA34C count = 229
+phase3. Via VIA45C count = 112
+phase3. Via VIA56C count = 1
+phase3. Via VIA67C count = 1
+phase3. Via VIA78C count = 1
+phase3. Via VIA89C count = 1
+phase3. completed.
+[End of Whole Chip Routing] Elapsed real time: 0:00:00 
+[End of Whole Chip Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Whole Chip Routing] Stage (MB): Used  178  Alloctr  178  Proc   80 
+[End of Whole Chip Routing] Total (MB): Used  203  Alloctr  203  Proc 6187 
+
+Congestion utilization per direction:
+Average vertical track utilization   = 11.13 %
+Peak    vertical track utilization   = 120.00 %
+Average horizontal track utilization = 11.40 %
+Peak    horizontal track utilization = 100.00 %
+
+[End of Global Routing] Elapsed real time: 0:00:00 
+[End of Global Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Global Routing] Stage (MB): Used  177  Alloctr  177  Proc   80 
+[End of Global Routing] Total (MB): Used  202  Alloctr  203  Proc 6187 
+Writing out congestion map...
+Updating congestion ...
+Updating congestion ...
+[DBOUT] Elapsed real time: 0:00:00 
+[DBOUT] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[DBOUT] Stage (MB): Used  -17  Alloctr  -17  Proc    0 
+[DBOUT] Total (MB): Used   36  Alloctr   37  Proc 6187 
+[End of dbOut] Elapsed real time: 0:00:00 
+[End of dbOut] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of dbOut] Stage (MB): Used  -17  Alloctr  -17  Proc    0 
+[End of dbOut] Total (MB): Used   36  Alloctr   37  Proc 6187 
+
+****************************************
+Report : congestion
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Tue May  7 13:47:10 2024
+****************************************
+
+Layer     |    overflow     |              # GRCs has
+Name      |  total  |  max  | overflow (%)      | max overflow
+---------------------------------------------------------------
+Both Dirs |      39 |     2 |      33  ( 0.58%) |       6
+H routing |      18 |     1 |      18  ( 0.63%) |      18
+V routing |      21 |     2 |      15  ( 0.52%) |       6
+
+1

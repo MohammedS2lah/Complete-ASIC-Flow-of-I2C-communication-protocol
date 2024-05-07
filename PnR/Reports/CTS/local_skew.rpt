@@ -1,0 +1,626 @@
+ Info: Initializing timer in CLOCK_SYN_REPORT_MODE
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+****************************************
+Report : clock qor
+        -type local_skew
+        -largest 100
+        -clocks wb_clk_i
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Tue May  7 13:47:29 2024
+****************************************
+
+Attributes
+===========
+M Master Clock
+G Generated Clock
+& Internal Generated Clock
+U User Defined Skew Group
+D Default Skew Group
+* Generated Clock Balanced Separately
+
+=================================================
+==== Local Skew Reporting for Corner default ====
+=================================================
+
+======================================== Summary Table for Corner default ========================================
+Clock /                               Attrs     Sinks    Global       Max    Local Skew   Max Setup    Max Hold
+Skew Group                                                 Skew   Latency    Pair Count  Local Skew  Local Skew
+------------------------------------------------------------------------------------------------------------------
+### Mode: default, Scenario: default
+wb_clk_i                                M,D       153      0.04      0.20          1320        0.04        0.04
+------------------------------------------------------------------------------------------------------------------
+All Clocks                                        153      0.04      0.20                      0.04        0.04
+
+
+  r = latency reported is for a rising edge triggered event at the sink
+  f = latency reported is for a falling edge triggered event at the sink
+
+
+Showing 100 largest datapoints per clock / skew group (L=largest, S=smallest)
+=============================================== Details Table for Corner default ===============================================
+Clock /                                Launch Sink    Capture Sink      Launch     Capture        Late       Early       Local
+Skew Group                             Name           Name             Latency     Latency      Offset      Offset        Skew
+--------------------------------------------------------------------------------------------------------------------------------
+### Mode: default, Scenario: default
+wb_clk_i
+                                   L   byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_2_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/cmd_ack_reg/CLK
+                                                      byte_controller/shift_reg/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/cmd_ack_reg/CLK
+                                                      byte_controller/ack_out_reg/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/cmd_ack_reg/CLK
+                                                      byte_controller/ld_reg/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_2_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_2_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_2_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_13_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_1_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_0_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/c_state_reg_4_/CLK
+                                                      byte_controller/ld_reg/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_0_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_0_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_1_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_13_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_13_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_1_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_1_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_0_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/filter_cnt_reg_13_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      cr_reg_6_/CLK       0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      cr_reg_7_/CLK       0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      byte_controller/shift_reg/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      byte_controller/ack_out_reg/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      al_reg/CLK          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/busy_reg/CLK
+                                                      wb_dat_o_reg_6_/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      byte_controller/ld_reg/CLK
+                                                                          0.20 r      0.16 r        --          --        0.04
+                                   L   byte_controller/bit_controller/dout_reg/CLK
+                                                      byte_controller/ack_out_reg/CLK
+                                                                          0.19 r      0.16 r        --          --        0.03
+                                   L   byte_controller/c_state_reg_1_/CLK
+                                                      byte_controller/shift_reg/CLK
+                                                                          0.19 r      0.16 r        --          --        0.03
+                                   L   byte_controller/c_state_reg_2_/CLK
+                                                      byte_controller/shift_reg/CLK
+                                                                          0.19 r      0.16 r        --          --        0.03
+                                   L   byte_controller/c_state_reg_1_/CLK
+                                                      byte_controller/ld_reg/CLK
+                                                                          0.19 r      0.16 r        --          --        0.03
+                                   L   byte_controller/c_state_reg_2_/CLK
+                                                      byte_controller/ld_reg/CLK
+                                                                          0.19 r      0.16 r        --          --        0.03
+                                   L   byte_controller/bit_controller/dout_reg/CLK
+                                                      byte_controller/sr_reg_0_/CLK
+                                                                          0.19 r      0.16 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cmd_ack_reg/CLK
+                                                      byte_controller/c_state_reg_3_/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cmd_ack_reg/CLK
+                                                      byte_controller/cmd_ack_reg/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cmd_ack_reg/CLK
+                                                      byte_controller/c_state_reg_0_/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/c_state_reg_4_/CLK
+                                                      byte_controller/cmd_ack_reg/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/c_state_reg_4_/CLK
+                                                      byte_controller/c_state_reg_3_/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/c_state_reg_4_/CLK
+                                                      byte_controller/c_state_reg_0_/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_7_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_4_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_5_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_7_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      irq_flag_reg/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_10_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_4_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_5_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_3_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_10_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_3_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_11_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_11_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/sSCL_reg/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/scl_oen_reg/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/slave_wait_reg/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_15_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/sSCL_reg/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_13_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      cr_reg_4_/CLK       0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      byte_controller/cmd_ack_reg/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      cr_reg_5_/CLK       0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      byte_controller/c_state_reg_0_/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/al_reg/CLK
+                                                      byte_controller/c_state_reg_3_/CLK
+                                                                          0.20 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/scl_oen_reg/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/slave_wait_reg/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_15_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_1_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/cnt_reg_14_/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                                   L   byte_controller/bit_controller/dSCL_reg/CLK
+                                                      byte_controller/bit_controller/cnt_reg_0_/CLK
+                                                                          0.19 r      0.17 r        --          --        0.03
+                               (H) L   cr_reg_7_/CLK  byte_controller/core_cmd_reg_1_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   cr_reg_6_/CLK  byte_controller/core_cmd_reg_1_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_2_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   cr_reg_6_/CLK  byte_controller/c_state_reg_4_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   cr_reg_7_/CLK  byte_controller/core_cmd_reg_0_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   cr_reg_6_/CLK  byte_controller/core_cmd_reg_0_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   cr_reg_7_/CLK  byte_controller/c_state_reg_4_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/sr_reg_7_/CLK
+                                                      byte_controller/core_txd_reg/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_2_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_2_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_2_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_13_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_0_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_1_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   cr_reg_6_/CLK  byte_controller/core_cmd_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   cr_reg_7_/CLK  byte_controller/core_cmd_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_1_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_13_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_13_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_1_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_0_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_0_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_0_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_13_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_1_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/dcnt_reg_0_/CLK
+                                                      byte_controller/core_cmd_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/dcnt_reg_1_/CLK
+                                                      byte_controller/core_cmd_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   byte_controller/dcnt_reg_2_/CLK
+                                                      byte_controller/core_cmd_reg_3_/CLK
+                                                                          0.16 r      0.20 r        --          --        0.04
+                               (H) L   cr_reg_7_/CLK  byte_controller/c_state_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.04
+                               (H) L   cr_reg_6_/CLK  byte_controller/c_state_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.04
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.04
+                               (H) L   cr_reg_7_/CLK  byte_controller/core_cmd_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.04
+                               (H) L   cr_reg_6_/CLK  byte_controller/core_cmd_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.04
+                               (H) L   cr_reg_6_/CLK  byte_controller/c_state_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   cr_reg_7_/CLK  byte_controller/c_state_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_0_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_0_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_0_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/fSCL_reg_0_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_0_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_12_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_2_/CLK
+                                                      byte_controller/c_state_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_0_/CLK
+                                                      byte_controller/c_state_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_1_/CLK
+                                                      byte_controller/c_state_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_1_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_9_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_0_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_8_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_0_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/bit_controller/filter_cnt_reg_6_/CLK
+                                                      byte_controller/bit_controller/fSDA_reg_0_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_2_/CLK
+                                                      byte_controller/core_cmd_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_1_/CLK
+                                                      byte_controller/core_cmd_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_0_/CLK
+                                                      byte_controller/core_cmd_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_2_/CLK
+                                                      byte_controller/c_state_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_0_/CLK
+                                                      byte_controller/c_state_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   byte_controller/dcnt_reg_1_/CLK
+                                                      byte_controller/c_state_reg_2_/CLK
+                                                                          0.16 r      0.19 r        --          --        0.03
+                               (H) L   prer_reg_12_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_10_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+                               (H) L   prer_reg_13_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_11_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+                               (H) L   prer_reg_9_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+                               (H) L   ctr_reg_7_/CLK byte_controller/bit_controller/filter_cnt_reg_7_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+                               (H) L   prer_reg_5_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+                               (H) L   ctr_reg_7_/CLK byte_controller/bit_controller/filter_cnt_reg_3_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+                               (H) L   ctr_reg_7_/CLK byte_controller/bit_controller/filter_cnt_reg_4_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+                               (H) L   prer_reg_7_/CLK
+                                                      byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+                               (H) L   ctr_reg_7_/CLK byte_controller/bit_controller/filter_cnt_reg_5_/CLK
+                                                                          0.17 r      0.20 r        --          --        0.03
+
+
+1
