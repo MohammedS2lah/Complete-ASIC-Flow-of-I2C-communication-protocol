@@ -53,18 +53,39 @@ This project also utilizes a comprehensive set of EDA tools, including Synopsys 
 
 - With Power Network
 
-![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/41526555-1557-4011-99b2-216d6f3972a9)
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/41526555-1557-4011-99b2-216d6f3972a9)
 
 - Without Power Network
 
-![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/108e632e-abe3-475f-a688-55bd8f436716)
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/108e632e-abe3-475f-a688-55bd8f436716)
+
+
+# Routing
+
+- Before Routing Optimization
+-
+- - Without Power Network
+ 
+  -  ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/7f3534e5-0af7-4649-983f-7ebd0e0d684d)
+
+
+- - With Power Network
+ 
+  - ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/c6d770ce-5f02-4e4b-a2bd-df5df442f20a)
 
 
 
+- After Routing Optimization
+
+- - Without Power Network
+ 
+  - ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/68744423-bca5-47be-9636-490cf2cc7805)
 
 
-
-
+- - With Power Network
+ 
+  - ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/9dbcce1e-f9df-4787-9292-2ab468950885)
+ 
 
 
 
