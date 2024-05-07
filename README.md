@@ -24,33 +24,40 @@ This project also utilizes a comprehensive set of EDA tools, including Synopsys 
 - Schematic view of Synthesis netlist
 ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/457db2bd-d53e-4d2d-ae0a-2209f94c0332)
 
-
-
-
-
 - Synthesis Output files
 ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/ecda8bbb-be02-4b03-add3-21a40eed8daf)
 
-
-
-
 # Formal Verification
-
 - Result of Formal Verification
 ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/37479743-eddd-44df-a739-a730b49266db)
-
 
 - Formal Verification reports
 ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/b2eaa974-afba-4738-9472-cdbf0a115c88)
 
-
 # Floor planning
 
-![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/1d229122-1a9e-4a46-8e71-f8adeec3e848)
+![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/06e01c5b-fb31-4c34-b78c-f21ba577e399)
+
 
 # Power planning
 
-![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/2cccee05-79c7-4acb-9d4d-9d253ad4a212)
+![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/a98c00da-3ec5-42b9-900f-3a10fa01d250)
+
+
+# Placement
+
+![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/3b523c69-783f-487d-bfa3-fc6b7e2c9adc)
+
+
+# Clock tree synthesis (CTS)
+
+- With Power Network
+
+![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/41526555-1557-4011-99b2-216d6f3972a9)
+
+- Without Power Network
+
+![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/108e632e-abe3-475f-a688-55bd8f436716)
 
 
 
