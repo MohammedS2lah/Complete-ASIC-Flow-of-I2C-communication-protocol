@@ -1,0 +1,120 @@
+AODFFARX1#PWR
+  cell *dff.00* : no power_down_function
+AODFFARX2#PWR
+  cell *dff.00* : no power_down_function
+AODFFNARX1#PWR
+  cell *dff.00* : no power_down_function
+AODFFNARX2#PWR
+  cell *dff.00* : no power_down_function
+DFFARX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFARX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFASRX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFASRX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFASX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFASX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNARX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNARX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNASRNX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNASRNX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNASRQX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNASRQX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNASRX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNASRX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNASX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNASX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFNX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFSSRX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFSSRX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+DFFX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+LARX1#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LARX2#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LASRNX1#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LASRNX2#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LASRQX1#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LASRQX2#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LASRX1#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LASRX2#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LASX1#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LASX2#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LATCHX1#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LATCHX2#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LNANDX1#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+LNANDX2#PWR
+  cell *lat.00* : no power_down_function : copied from Q/QN
+SDFFARX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFARX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFASRSX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFASRSX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFASRX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFASRX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFASX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFASX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFNARX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFNARX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFNASRX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFNASRX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFNASX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFNASX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFNX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFNX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFSSRX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFSSRX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFX1#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN
+SDFFX2#PWR
+  cell *dff.00* : no power_down_function : copied from Q/QN

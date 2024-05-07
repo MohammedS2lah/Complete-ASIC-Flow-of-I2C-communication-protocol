@@ -1,0 +1,537 @@
+**************************************************
+Report         : passing_points
+
+Reference      : Ref:/WORK/i2c_master_top
+Implementation : Imp:/WORK/i2c_master_top
+Version        : V-2023.12
+Date           : Tue May  7 12:43:05 2024
+**************************************************
+
+167 Passing compare points:
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/al_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/al_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/ack_out_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/ack_out_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/al_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/al_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/busy_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/busy_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cSCL_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cSCL_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cSCL_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cSCL_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cSDA_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cSDA_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cSDA_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cSDA_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[10]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_10_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[11]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_11_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[12]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_12_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[13]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_13_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[14]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_14_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[15]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_15_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[16]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_16_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[8]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_8_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg[9]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/c_state_reg_9_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/clk_en_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/clk_en_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cmd_ack_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cmd_ack_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cmd_stop_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cmd_stop_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[10]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_10_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[11]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_11_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[12]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_12_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[13]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_13_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[14]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_14_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[15]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_15_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[8]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_8_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg[9]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/cnt_reg_9_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/dSCL_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/dSCL_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/dSDA_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/dSDA_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/dout_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/dout_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/dscl_oen_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/dscl_oen_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/fSCL_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/fSCL_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/fSCL_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/fSCL_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/fSCL_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/fSCL_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/fSDA_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/fSDA_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/fSDA_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/fSDA_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/fSDA_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/fSDA_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[10]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_10_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[11]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_11_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[12]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_12_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[13]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_13_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[8]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_8_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg[9]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/filter_cnt_reg_9_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/sSCL_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/sSCL_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/sSDA_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/sSDA_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/scl_oen_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/scl_oen_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/sda_chk_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/sda_chk_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/sda_oen_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/sda_oen_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/slave_wait_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/slave_wait_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/sta_condition_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/sta_condition_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/bit_controller/sto_condition_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/bit_controller/sto_condition_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/c_state_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/c_state_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/c_state_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/c_state_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/c_state_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/c_state_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/c_state_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/c_state_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/c_state_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/c_state_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/cmd_ack_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/cmd_ack_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/core_cmd_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/core_cmd_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/core_cmd_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/core_cmd_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/core_cmd_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/core_cmd_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/core_cmd_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/core_cmd_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/core_txd_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/core_txd_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/dcnt_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/dcnt_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/dcnt_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/dcnt_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/dcnt_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/dcnt_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/ld_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/ld_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/shift_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/shift_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/sr_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/sr_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/sr_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/sr_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/sr_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/sr_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/sr_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/sr_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/sr_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/sr_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/sr_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/sr_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/sr_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/sr_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/byte_controller/sr_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/byte_controller/sr_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/cr_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/cr_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/cr_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/cr_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/cr_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/cr_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/cr_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/cr_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/cr_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/cr_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/cr_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/cr_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/cr_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/cr_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/cr_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/cr_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/ctr_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/ctr_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/ctr_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/ctr_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/ctr_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/ctr_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/ctr_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/ctr_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/ctr_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/ctr_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/ctr_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/ctr_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/ctr_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/ctr_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/ctr_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/ctr_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/irq_flag_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/irq_flag_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[10]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_10_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[11]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_11_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[12]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_12_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[13]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_13_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[14]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_14_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[15]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_15_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[8]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_8_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/prer_reg[9]
+  Impl DFF        Imp:/WORK/i2c_master_top/prer_reg_9_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/rxack_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/rxack_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/tip_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/tip_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/txr_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/txr_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/txr_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/txr_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/txr_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/txr_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/txr_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/txr_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/txr_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/txr_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/txr_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/txr_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/txr_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/txr_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/txr_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/txr_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_ack_o_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_ack_o_reg
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_dat_o_reg[0]
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_dat_o_reg_0_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_dat_o_reg[1]
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_dat_o_reg_1_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_dat_o_reg[2]
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_dat_o_reg_2_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_dat_o_reg[3]
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_dat_o_reg_3_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_dat_o_reg[4]
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_dat_o_reg_4_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_dat_o_reg[5]
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_dat_o_reg_5_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_dat_o_reg[6]
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_dat_o_reg_6_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_dat_o_reg[7]
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_dat_o_reg_7_
+
+  Ref  DFF        Ref:/WORK/i2c_master_top/wb_inta_o_reg
+  Impl DFF        Imp:/WORK/i2c_master_top/wb_inta_o_reg
+
+  Ref  Port       Ref:/WORK/i2c_master_top/scl_pad_o
+  Impl Port       Imp:/WORK/i2c_master_top/scl_pad_o
+
+  Ref  Port       Ref:/WORK/i2c_master_top/scl_padoen_o
+  Impl Port       Imp:/WORK/i2c_master_top/scl_padoen_o
+
+  Ref  Port       Ref:/WORK/i2c_master_top/sda_pad_o
+  Impl Port       Imp:/WORK/i2c_master_top/sda_pad_o
+
+  Ref  Port       Ref:/WORK/i2c_master_top/sda_padoen_o
+  Impl Port       Imp:/WORK/i2c_master_top/sda_padoen_o
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_ack_o
+  Impl Port       Imp:/WORK/i2c_master_top/wb_ack_o
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_dat_o[0]
+  Impl Port       Imp:/WORK/i2c_master_top/wb_dat_o[0]
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_dat_o[1]
+  Impl Port       Imp:/WORK/i2c_master_top/wb_dat_o[1]
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_dat_o[2]
+  Impl Port       Imp:/WORK/i2c_master_top/wb_dat_o[2]
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_dat_o[3]
+  Impl Port       Imp:/WORK/i2c_master_top/wb_dat_o[3]
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_dat_o[4]
+  Impl Port       Imp:/WORK/i2c_master_top/wb_dat_o[4]
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_dat_o[5]
+  Impl Port       Imp:/WORK/i2c_master_top/wb_dat_o[5]
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_dat_o[6]
+  Impl Port       Imp:/WORK/i2c_master_top/wb_dat_o[6]
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_dat_o[7]
+  Impl Port       Imp:/WORK/i2c_master_top/wb_dat_o[7]
+
+  Ref  Port       Ref:/WORK/i2c_master_top/wb_inta_o
+  Impl Port       Imp:/WORK/i2c_master_top/wb_inta_o
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

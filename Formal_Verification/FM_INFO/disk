@@ -1,0 +1,10 @@
+Directory = /home/vlsi/Synopsys/Project/I2C/Formal_Verification
+Total     = 110 GB
+Available = 89 GB
+Used      = 21 GB (20%)
+
+Directory = /tmp
+Total     = 700 GB
+Available = 249 GB
+Used      = 451 GB (65%)
+
