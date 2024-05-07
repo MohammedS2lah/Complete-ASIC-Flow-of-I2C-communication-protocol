@@ -25,8 +25,13 @@ This project also utilizes a comprehensive set of EDA tools, including Synopsys 
 ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/457db2bd-d53e-4d2d-ae0a-2209f94c0332)
 
 
+
+
+
 - Synthesis Output files
 ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/ecda8bbb-be02-4b03-add3-21a40eed8daf)
+
+
 
 
 # Formal Verification
