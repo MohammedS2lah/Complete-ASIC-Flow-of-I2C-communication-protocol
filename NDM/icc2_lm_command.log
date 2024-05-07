@@ -1,0 +1,16 @@
+#@ # 
+#@ # Running icc2_lm_shell Version O-2018.06-SP1 for linux64 -- Jul 17, 2018
+#@ # Date:   Tue Apr 30 19:58:42 2024
+#@ # Run by: ICer@IC_EDA
+#@ 
+
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+create_workspace -flow exploration -technology /home/ICer/vlsi/Synopsys/I2C/Technology_File/astroTechFile.tf ndm
+set_app_options -list {lib.workspace.keep_all_physical_cells {true}}
+set_app_options -list {lib.workspace.save_layout_views {true}}
+set_app_options -list {lib.workspace.save_design_views {true}}
+read_db { /home/ICer/vlsi/Synopsys/I2C/Standard_Cells/saed90nm_max_lth.db }
+read_lef -merge_action Add /home/ICer/vlsi/Synopsys/I2C/LEF_file/saed90nmEditted.lef
+group_libs
+process_workspaces  -directory /home/ICer/vlsi/Synopsys/I2C/NDM

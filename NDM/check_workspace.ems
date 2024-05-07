@@ -1,0 +1,24 @@
+<Database>
+Name/home/ICer/vlsi/Synopsys/I2C/NDM/check_workspace.ems
+Creation TimeTue Apr 30 20:03:39 2024
+Modified TimeTue Apr 30 20:03:42 2024
+Design Name
+Library Name
+</Database>
+<RuleCount>
+LM-0051
+LM-0061
+LM-0341
+LM-0501
+LM-0522
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+LM-005
+LM-006para1saed90nm_max_lth10para2310para3arc10
+LM-034para122410para2s10para3224 with a design view (212 had ports reordered);10
+LM-052para111610para2s10
+LM-050para111610para2s10
+LM-052para122410para2s10
+</Messages>
