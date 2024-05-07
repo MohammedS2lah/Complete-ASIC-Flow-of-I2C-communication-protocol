@@ -85,7 +85,78 @@ This project also utilizes a comprehensive set of EDA tools, including Synopsys 
 - - With Power Network
  
   - ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/9dbcce1e-f9df-4787-9292-2ab468950885)
- 
+
+
+# Placing Filler cells
+
+- With Power Network
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/31d56b05-5643-4093-aef3-7d09a827a368)
+
+
+
+- Without Power Network
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/e8c0e626-6d4c-40bb-950d-228d1643268e)
+
+
+
+- After removing Fillers with violation
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/2f11272f-9ed4-496b-a5f5-0a4ecd67c52a)
+
+
+
+
+
+# Global Route Congestion map
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/c2f1b449-7b3f-4e97-87fe-2af795160d91)
+
+
+# Pin Density map
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/cb68b28e-375a-4d58-9e4b-a7602ea7b92e)
+
+
+# Power Density map
+
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/a753f185-1902-4f16-9990-5ab1b0f71096)
+
+# Cell Density map
+
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/f57dcea8-180a-4d3f-8bd0-23b1aca58ab2)
+
+
+# PNA Voltage drop map
+
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/7154adf9-d686-46c8-9a5e-d21fdd541a80)
+
+# Back-end reports
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/bcf72f90-bd72-4a95-8cc0-2178ea7ec852)
+
+
+# ICC II output files
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/3bb44799-9e59-4e8b-ba38-b3b3934f5da6)
+
+
+# PrimeTime Histogram
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/07b2ccac-04bd-4dc1-a382-28450c7388c8)
+
+
+# PrimeTime Reports
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/b0ffe9e4-ab40-4085-8b1a-e7e6d32016b1)
+
+# Final Layout View of the design
+
+- ![image](https://github.com/MohammedS2lah/Complete-ASIC-Flow-of-I2C-communication-protocol/assets/95502907/73bf3674-d1a7-46a2-b847-bdfb9c2e804a)
 
 
 
