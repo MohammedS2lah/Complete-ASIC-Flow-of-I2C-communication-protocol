@@ -1,0 +1,83 @@
+ 
+****************************************
+Report : qor
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Tue May  7 12:41:30 2024
+****************************************
+
+
+  Timing Path Group 'wb_clk_i'
+  -----------------------------------
+  Levels of Logic:              29.00
+  Critical Path Length:          1.12
+  Critical Path Slack:           0.54
+  Critical Path Clk Period:      2.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.13
+  Total Hold Violation:         -7.66
+  No. of Hold Violations:      150.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          4
+  Hierarchical Port Count:        150
+  Leaf Cell Count:                573
+  Buf/Inv Cell Count:              67
+  Buf Cell Count:                   0
+  Inv Cell Count:                  67
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       420
+  Sequential Cell Count:          153
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     3748.147194
+  Noncombinational Area:  4827.340860
+  Buf/Inv Area:            370.483210
+  Total Buffer Area:             0.00
+  Total Inverter Area:         370.48
+  Macro/Black Box Area:      0.000000
+  Net Area:                493.313844
+  -----------------------------------
+  Cell Area:              8575.488054
+  Design Area:            9068.801898
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           677
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: elc-zu-vlsi-8-lnx
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.26
+  Logic Optimization:                  0.32
+  Mapping Optimization:                0.25
+  -----------------------------------------
+  Overall Compile Time:                1.42
+  Overall Compile Wall Clock Time:     1.46
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.13  TNS: 7.66  Number of Violating Paths: 150
+
+  --------------------------------------------------------------------
+
+
+1
